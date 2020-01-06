@@ -1,10 +1,15 @@
 import React from "react";
 import { Col, Row, Container } from "../components/Grid";
 import Jumbotron from "../components/Jumbotron";
+import AddNames from "../components/AddNames/index";
+
 
 function Main() {
   return (
     <Container fluid>
+        <Row>
+            <AddNames/>
+        </Row>
       <Row>
       <Col size="md-6 sm-12">
           <Jumbotron>
